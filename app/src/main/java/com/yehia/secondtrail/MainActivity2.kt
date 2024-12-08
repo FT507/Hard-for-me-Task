@@ -11,6 +11,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.yehia.secondtrail.databinding.ActivityMain2Binding
 
 class MainActivity2 : AppCompatActivity() {
+
     lateinit var binding2 : ActivityMain2Binding
     override fun onCreate(savedInstanceState: Bundle?) {
         binding2 = ActivityMain2Binding.inflate(layoutInflater)
@@ -26,9 +27,10 @@ class MainActivity2 : AppCompatActivity() {
                 Snackbar.make(binding2.root,"Size Must be 8 or more",Snackbar.LENGTH_SHORT).show()
             }else{
             Toast.makeText(this,"Valid",Toast.LENGTH_SHORT).show()
-            val intent = intent ( this , MainActivity::class.java)
+            val intent = Intent ( this , MainActivity::class.java)
             startActivity(intent)
                 finish()
+                
             }
 
         }
@@ -36,7 +38,7 @@ class MainActivity2 : AppCompatActivity() {
 
     }
 
-    private fun intent(mainActivity2: MainActivity2, java: Class<MainActivity>): Intent? {
-        TODO("Not yet implemented")
-    }
+
+
+
 }

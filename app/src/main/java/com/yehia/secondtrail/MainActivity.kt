@@ -9,9 +9,9 @@ class MainActivity : AppCompatActivity() {
 
     private var array  = mutableListOf<movie>()
     private  fun add(){
-        var m = movie("aot",R.drawable.aot)
+        var m = movie("Attack On Titan",R.drawable.aot)
         array.add(m)
-        m = movie("avengers",R.drawable.avgend)
+        m = movie("Avengers",R.drawable.avgend)
         array.add(m)
         m = movie("captain america",R.drawable.captainamerica)
         array.add(m)
@@ -21,13 +21,13 @@ class MainActivity : AppCompatActivity() {
         array.add(m)
         m = movie("DemonSlayer",R.drawable.demonslayer)
         array.add(m)
-        m = movie("Wolvrine",R.drawable.wolvrine)
+        m = movie("Wolverine",R.drawable.wolvrine)
         array.add(m)
-        m = movie("Tohyo drift",R.drawable.tokyodrift)
+        m = movie("Tokyo drift",R.drawable.tokyodrift)
         array.add(m)
-        m= movie("man of steel" , R.drawable.manofstell)
+        m= movie("Man of steel" , R.drawable.manofstell)
         array.add(m)
-        m = movie("Spiderman IntoSpiderVerse" , R.drawable.spman)
+        m = movie("Spider man IntoSpiderVerse" , R.drawable.spman)
     }
 
 
@@ -46,8 +46,10 @@ class MainActivity : AppCompatActivity() {
         val obj = MyAdapter(array)
         binding.movieRv.adapter = obj
         binding.movieRv.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false)
-        binding.toolbar.setTitle("Sheba")
+        binding.toolbar.setTitle("Film")
         setSupportActionBar(binding.toolbar)
+
+
     }
 
 
