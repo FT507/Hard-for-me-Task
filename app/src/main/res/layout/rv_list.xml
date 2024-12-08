@@ -13,13 +13,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginTop="21dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginEnd="0dp"
         android:layout_marginBottom="611dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:cardCornerRadius="10dp">
+        app:cardCornerRadius="50dp">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -36,12 +36,13 @@
                 android:id="@+id/movieimage"
                 android:layout_width="145dp"
                 android:layout_height="157dp"
-                android:layout_marginStart="16dp"
+                android:src="@drawable/ic_launcher_background"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.165"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.072"
-                android:src="@drawable/ic_launcher_background"/>
+                app:layout_constraintVertical_bias="0.0" />
 
             <TextView
                 android:id="@+id/movietitle"
