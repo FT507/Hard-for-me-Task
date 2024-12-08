@@ -9,7 +9,7 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 
 
-class MyAdapter(private val items : List<String>) : RecyclerView.Adapter<MyAdapter.ViewHolder>() {
+class MyAdapter(private val items: List<movie>) : RecyclerView.Adapter<MyAdapter.ViewHolder>() {
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
         val MovieT : TextView = view.findViewById(R.id.movietitle)
         val MovieI : ImageView = view.findViewById(R.id.movieimage)
@@ -28,8 +28,8 @@ class MyAdapter(private val items : List<String>) : RecyclerView.Adapter<MyAdapt
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-         holder.MovieT.text = items[position].toString()
-        holder.MovieI.setImageResource(items[position].toInt())
+         holder.MovieT.text = items[position].t
+        holder.MovieI.setImageResource(items[position].i)
 
 
     }
