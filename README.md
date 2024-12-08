@@ -9,3 +9,6 @@ Small film app but iam facing problems in  design
 ![wolvrine](https://github.com/user-attachments/assets/96879866-116f-41b8-84ca-480dbe46acd7)
 ![spman](https://github.com/user-attachments/assets/911ea02d-f7a2-4984-95a8-e5dc496b543e)
 ![shadagzaa](https://github.com/user-attachments/assets/808851fc-4274-48f6-a644-641e96c3cfcb)
+![WhatsApp Image 2024-12-08 at 19 15 47_ace487f3](https://github.com/user-attachments/assets/4df3861c-c26d-487b-87dc-40b7b397dd8c)
+![WhatsApp Image 2024-12-08 at 19 15 47_d7bb91bf](https://github.com/user-attachments/assets/4ad43775-5406-4692-9910-93772e9e1e25)
+![WhatsApp Image 2024-12-08 at 19 15 48_4fad5bc3](https://github.com/user-attachments/assets/fe6165ea-0f57-4e07-bf92-f85aedee092a)
